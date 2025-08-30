@@ -1,4 +1,3 @@
-/**
  * Purpose : 
  * Linux security and activity report for ports 22, 80, 443.
  * - SSH log from /var/log/auth.log
@@ -14,4 +13,4 @@
  * 
  * Considerations : Preferable not to use the ROOT account on a regular basis and use a dedicated account per user with the minimum rights required when required only.
  * Connecting to port 22 using a username and password is not recommended either. Best practice is to use a SSH key instead of a password.
- */
+
